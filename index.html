@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Odin Recipes</title>
+</head>
+
+<body>
+    <header
+        class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-gray-100 text-sm py-4 dark:bg-gray-800 ">
+        <nav class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between" aria-label="Global">
+            <a class="flex-none text-xl font-semibold dark:text-white" href="/">Odin Recipes</a>
+            <div class="flex flex-row items-center gap-5 mt-5 sm:justify-end sm:mt-0 sm:pl-5">
+                <a class="font-medium text-blue-500" </a>
+                    <a class="font-medium text-blue-500" href="recipes/fettuccine-alfredo.html">Futtuccine Alfredo</a>
+        </nav>
+    </header>
+    <div class="max-w-4xl mx-auto p-4">
+        <h1 class="text-3xl tex-gray-700 mb-4 uppercase">Odin Recipes</h1>
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
+            <div
+                class="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+                <img class="w-full h-auto rounded-t-xl" src="/images/lasagna.webp" alt="Homemade Lasagna finished dish">
+                <div class="p-4 md:p-5">
+                    <h3 class="text-lg font-bold text-gray-800 dark:text-white">Homemade Lasagna</h3>
+                    <p class="mt-1 text-gray-800 dark:text-gray-400">
+                        Homemade lasagna isn't as hard to make as it seems.
+                    </p>
+                    <a class="mt-3 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800"
+                        href="recipes/lasagna.html">
+                        See More
+                    </a>
+                </div>
+            </div>
+            <div
+                class="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+                <img class="w-full h-auto rounded-t-xl" src="/images/alfredo.webp"
+                    alt="Fettuccine Alfredo finished dish">
+                <div class="p-4 md:p-5">
+                    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+                        Fettuccine Alfredo
+                    </h3>
+                    <p class="mt-1 text-gray-800 dark:text-gray-400">
+                        This is a recipe that I created by modifying my mother's recipe.
+                    </p>
+                    <a class="mt-3 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800"
+                        href="recipes/fettuccine-alfredo.html">
+                        See More
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
